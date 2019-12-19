@@ -19,3 +19,21 @@ auth.php - Демонстрационный класс, в нем вы може�
 
 Для работы необходима версия php 5.3 и выше! 
   
+
+Method php / Методы Php 
+
+
+        echo 'Ваш пол: '.$asterios["fullname"].'<br>';
+        echo 'Количество Записей: '.$asterios["postsCount"].'<br>';
+        echo 'Количество Лайков: '.$asterios["likesCount"].'<br>';
+        echo 'Количество Видео: '.$asterios["videosCount"].'<br>';
+        echo 'Количество Подарков: '.$asterios["giftsCount"].'<br>';
+        echo 'Количество Друзей: '.$asterios["friendsCount"].'<br>';
+        echo 'Ваша Локация: '.$asterios["location"].'<br>';
+        echo 'Ваша Статус: '.$asterios["status"].'<br>';
+        echo 'Ваша Логин: '.$asterios["asterios"].'<br>';
+        echo 'Дата Рождения: '.$asterios["day"].' /'.$asterios["month"].' /'.$asterios["year"].'<br>';
+        echo 'День Рождения: '.$asterios["day"].'<br>';
+        echo 'Месяц Рождения: '.$asterios["month"].'<br>';
+        echo 'Год Рождения: '.$asterios["year"].'<br>';
+        echo 'Ваш уникальный ID: '.$asterios["id"].'<br>';
